@@ -1,0 +1,1 @@
+arm-linux-gnueabi-g++ main.cpp -I ../../../simulators/gem5-pthread_compile/util/m5 ../../../simulators/gem5-pthread_compile/util/m5/m5op_arm.S --static -o a_arm.out

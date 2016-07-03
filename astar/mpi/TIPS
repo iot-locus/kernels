@@ -1,0 +1,7 @@
+arm-linux-gnueabi-g++ main.cpp -I ../../../simulators/gem5-MPI_compile/util/m5 ../../../simulators/gem5-MPI_compile/util/m5/m5op_arm.S --static -o a_arm.out
+
+arm-linux-gnueabi-g++ -S main.cpp -I ../../lib/m5 -I ../../lib --static -o main.asm
+
+arm-linux-gnueabi-as -c a_arm.asm -I ../../../simulators/gem5-MPI_compile/util/m5 -o a_arm.o
+
+arm-linux-gnueabi-g++ a_arm.o ../../../simulators/gem5-MPI_compile/util/m5/m5op_arm.o --static -o a_arm.out
