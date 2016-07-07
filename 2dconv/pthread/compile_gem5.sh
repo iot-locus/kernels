@@ -1,1 +1,0 @@
-arm-linux-gnueabi-g++ 2dconv_pthread.c ../../../src_code/configurable-many-core-soc/m5threads/pthread_arm.o -march=armv7-a -I ../../../src_code/configurable-many-core-soc//util/m5 ../../../src_code/configurable-many-core-soc//util/m5/m5op_arm.S --static -o a_arm.out
