@@ -37,7 +37,7 @@ If you use this kernel suit or the LOCUS architecture in your work, we would app
 
 # References
 
-[1] Cheng Tan and et al. `LOCUS: Low-Power Customizable Many-Core Architecture for Wearables.` In International Conference on Compilers, Architecture and Synthesis for Embedded Systems (CASES), 2016.
+[1] Tan, Cheng, et al. "LOCUS: Low-power customizable many-core architecture for wearables." ACM Transactions on Embedded Computing Systems (TECS) 17.1 (2018): 16.
 
 [2] https://en.wikipedia.org/wiki/Dynamic_time_warping
 
